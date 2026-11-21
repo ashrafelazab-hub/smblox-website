@@ -17,7 +17,7 @@ body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--b
 img{display:block;max-width:100%;height:auto}
 a{color:var(--indigo)}
 :focus-visible{outline:3px solid var(--indigo);outline-offset:3px;border-radius:4px}
-.problem :focus-visible,.founder :focus-visible,.foot :focus-visible{outline-color:var(--amber)}
+.problem :focus-visible,.founding :focus-visible,.foot :focus-visible{outline-color:var(--amber)}
 
 .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
 .narrow{max-width:760px}
@@ -91,11 +91,11 @@ p{margin:0 0 1em;max-width:68ch}
 .promise li{padding:14px 0;border-top:1px solid var(--line)}
 .promise li:last-child{border-bottom:1px solid var(--line)}
 
-/* founder */
-.founder{background:var(--indigo);color:var(--white);padding:88px 0}
-.founder h2{color:var(--white)}
-.founder p{font-size:1.1rem}
-.founder .btn{margin-top:12px}
+/* founding clients */
+.founding{background:var(--indigo);color:var(--white);padding:88px 0}
+.founding h2{color:var(--white)}
+.founding p{font-size:1.1rem}
+.founding .btn{margin-top:12px}
 
 /* faq */
 .faq{padding-top:96px;padding-bottom:96px}
